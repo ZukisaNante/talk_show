@@ -13,7 +13,7 @@
     position: relative;
     overflow: hidden;
     /* background: linear-gradient(to right, #9c27b0, #8ecdff); */
-    background-image: url(https://github.com/ZukisaNante/talk_show/blob/da4d82603ff8167ac03c21d1584a05abd71d96f4/assets/image/zukisa.jpg);
+    background-image: url(./talk_show/assets/image/zukisa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
