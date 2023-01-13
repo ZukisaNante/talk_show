@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -13,9 +14,10 @@
     position: relative;
     overflow: hidden;
     /* background: linear-gradient(to right, #9c27b0, #8ecdff); */
-    background-image: url(/talk_show/blob/main/assets/image/zukisa.jpg);
+    background-image: url(/assets/image/zukisa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    /* display: flex; */
 }
 
 nav {
@@ -120,6 +122,7 @@ nav {
     position: absolute;
     top: 50%;
     left: 35%;
+    border-radius: 6PX;
     transform: translateY(-50%);
     z-index: 1;
 }
@@ -161,4 +164,32 @@ nav {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+
+/* responsive */
+
+
+/* @media only screen and (min-width: 768px) {
+    /* mobile phones /*
+    .controls,
+    .feature,
+    .four,
+    .information,
+    .logo,
+    .main-container,
+    .nav-links,
+    .one,
+    .overlay,
+    .person,
+    .three,
+    .two {
+        width: 100%;
+    }
+} */
+
+@media screen and (min-width: 80rem) {
+    .main-container {
+        margin: 1em 2em;
+    }
 }
